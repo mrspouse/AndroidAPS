@@ -48,7 +48,7 @@ class NSClientSourcePlugin @Inject constructor(
 ), BgSource {
 
     private var lastBGTimeStamp: Long = 0
-    private var isAdvancedFilteringEnabled = false
+    private var isAdvancedFilteringEnabled = true
 
     init {
         if (config.NSCLIENT) {
